@@ -147,9 +147,9 @@ public class LoadRegistrationApp {
 
     public static void goPlus() {
         System.out.println("\n--- Choose your Go+ Promo ---");
-        System.out.println("    Go+99 (8GB Data + 8GB Apps for 7 Days - P99)");
-        System.out.println("    Go+149 (12GB Data + 8GB Apps for 7 Days - P149)");
-        System.out.println("    Back to Main Menu");
+        System.out.println("    [1] Go+99 (8GB Data + 8GB Apps for 7 Days - P99)");
+        System.out.println("    [2] Go+149 (12GB Data + 8GB Apps for 7 Days - P149)");
+        System.out.println("    [0] Back to Main Menu");
         System.out.print("Enter Choice: ");
         int subChoice = scanner.nextInt();
         scanner.nextLine();
@@ -179,10 +179,10 @@ public class LoadRegistrationApp {
 
     public static void unli5G() {
         System.out.println("\n--- Choose your UNLI 5G Promo ---");
-        System.out.println("    1 Day (P50)");
-        System.out.println("    3 Days (P120)");
-        System.out.println("    7 Days (P250)");
-        System.out.println("    Back to Main Menu");
+        System.out.println("    [1] 1 Day (P50)");
+        System.out.println("    [2] 3 Days (P120)");
+        System.out.println("    [3] 7 Days (P250)");
+        System.out.println("    [0] Back to Main Menu");
         System.out.print("Enter Duration: ");
         int subChoice = scanner.nextInt();
         scanner.nextLine();
@@ -215,10 +215,10 @@ public class LoadRegistrationApp {
 
     public static void unliCallAndText() {
         System.out.println("\n--- Choose your Unli Call and Text Promo ---");
-        System.out.println("    1 Day (P25)");
-        System.out.println("    3 Days (P50)");
-        System.out.println("    7 Days (P100)");
-        System.out.println("    Back to Main Menu");
+        System.out.println("    [1] 1 Day (P25)");
+        System.out.println("    [2] 3 Days (P50)");
+        System.out.println("    [3] 7 Days (P100)");
+        System.out.println("    [0] Back to Main Menu");
         System.out.print("Enter Duration: ");
         int subChoice = scanner.nextInt();
         scanner.nextLine();
@@ -306,7 +306,6 @@ public class LoadRegistrationApp {
     }
 
     public static void exitConfirmation() {
-        scanner.nextLine();
         System.out.println("\n\n\nAre you sure you really want to exit? ");
         System.out.print("Type Y to proceed: ");
         char choice = scanner.nextLine().trim().charAt(0);
@@ -321,14 +320,5 @@ public class LoadRegistrationApp {
         System.out.print("\033[H\033[2J");
         System.out.flush();
     }
-// hello
+
 }
-/*
-    how to run Java Program in Terminal
-Steps:
-    1. Check Java Installation // java --version
-    2. Navigate to project
-
-
- */
-// hello
